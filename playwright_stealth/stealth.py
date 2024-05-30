@@ -79,8 +79,10 @@ class StealthConfig:
     hairline: bool = True
 
     # options
-    vendor: str = "Intel Inc."
-    renderer: str = "Intel Iris OpenGL Engine"
+    vendor: str = "Google Inc. (Apple)"
+    renderer: str = (
+        "ANGLE (Apple, ANGLE Metal Renderer: Apple M2 Max, Unspecified Version)"
+    )
     nav_vendor: str = "Google Inc."
     nav_user_agent: str = None
     nav_platform: str = None

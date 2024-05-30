@@ -41,7 +41,7 @@ const _getBrands = () => {
 }
 
 const metadata = {
-  platform: "macOSs",
+  platform: "macOS",
   mobile: false,
   brands: _getBrands()
 }
