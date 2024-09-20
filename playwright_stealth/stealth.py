@@ -105,7 +105,7 @@ class StealthConfig:
         )
 
         # defined options constant
-        yield f"const opts = {opts}; console.log('opts defined:', opts);"
+        yield f"window.opts = {opts}; console.log('opts defined:', window.opts);"
         # init utils and generate_magic_arrays helper
         yield SCRIPTS["utils"]
         yield SCRIPTS["generate_magic_arrays"]
@@ -131,7 +131,7 @@ class StealthConfig:
         ]
 
         for key in script_keys:
-            yield f"{SCRIPTS[key]}; console.log('Script {key} executed with opts:', opts);"
+            yield f"{SCRIPTS[key]}; console.log('Script {key} executed with opts:', window.opts);"
 
 
 def stealth_sync(page: SyncPage, config: StealthConfig = None):
