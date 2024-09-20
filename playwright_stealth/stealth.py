@@ -105,7 +105,7 @@ class StealthConfig:
         )
 
         # defined options constant
-        yield f"const opts = {opts}"
+        yield f"const opts = {opts}; console.log('opts defined:', opts);"
         # init utils and generate_magic_arrays helper
         yield SCRIPTS["utils"]
         yield SCRIPTS["generate_magic_arrays"]
