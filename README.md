@@ -1,11 +1,12 @@
 # playwright_stealth
 
 Transplanted from [puppeteer-extra-plugin-stealth](https://github.com/berstend/puppeteer-extra/tree/master/packages/puppeteer-extra-plugin-stealth), **Not perfect**.
+Forked from [playwright_stealth](https://github.com/AtuboDad/playwright_stealth) and re-released.
 
 ## Install
 
 ```
-$ pip install playwright-stealth
+$ pip install playwright-stealth2
 ```
 
 ## Usage

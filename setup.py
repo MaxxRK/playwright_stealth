@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="playwright-stealth",
+    name="playwright-stealth2",
     version="1.0.8",
     author="AtuboDad",
-    author_email="lcjasas@sina.com",
+    author_email="maxxrk@pm.me",
     description="playwright stealth",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/AtuboDad/playwright_stealth",
+    url="https://github.com/MaxxRK/playwright_stealth",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -19,7 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_data={"playwright_stealth": ["js/*.js"]},
-    python_requires=">=3, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*",
+    python_requires=">=3.8",
     install_requires=[
         "playwright==1.47.0",
     ],
