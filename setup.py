@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="playwright-stealth2",
+    name="playwright-stealth",
     version="1.0.8",
     author="AtuboDad",
     author_email="maxxrk@pm.me",
