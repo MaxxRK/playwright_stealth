@@ -6,7 +6,7 @@ Forked from [playwright_stealth](https://github.com/AtuboDad/playwright_stealth)
 ## Install
 
 ```
-$ pip install playwright-stealth2
+$ pip install playwright-sm
 ```
 
 ## Usage
